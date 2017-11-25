@@ -1,44 +1,76 @@
-<html>
-  <head>
-  <title>Ahmad Nizar</title>
-    <link href="assets/css/style.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
-  </head>
-  <body>
-    <header>
-      <h1 id="logo" width="200px">AHMAD NIZAR</h1>
-      <nav>
-        <ul>
-          <a href="index.html"><li>Home</li></a>
-          <a href="about.html"><li>About</li></a>
-          <a href="contact.html"><li>Contact</li></a>
-        </ul>
-      </nav>
-    </header>
-    <section>
-      <div id="article-list">
-        <article>
-          <a href=""><h3>My Portfolio</h3></a>
-          <p>
-            Halo..!!! Perkenalin nama saya Ahmad Nizar, 22 tahun, dan asal saya dari palembang. Dihalaman sederhana ini kalian yang baca bakal lebih tau sedikit tentang diri saya, skillset yang saya kuasi, dan juga beberapa hal sepele lainnya tentang saya. So, check my portfolio website... :)
-          </p>
-        </article>
-      </div>
-    </section>
-    <footer>
-      <div id="left">
-        <h5>copyright &copy; 2017 by Ahmad Nizar</h5>
-      </div>
-      <div id="right">
-        <nav>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ahmad Nizar || Semantic Web</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet" />
+</head>
+<body>
+<header>
+  <h1>Ahmad Nizar</h1>
+  <p>A Wanne be full stack developer</p>
+</header>
+<ul>
+    <li><a href="#" onclick="article()">Home</a></li>
+    <li><a href="#" onclick="article1()">About</a></li>
+    <li><a href="#" onclick="article2()">Contact</a></li>
+</ul>
+<section>
+  <div id="article">
+    <p>Halo..!!! Perkenalin nama saya Ahmad Nizar, 22 tahun, dan asal saya dari palembang.</p>
+    <p>Dihalaman sederhana ini kalian yang baca bakal lebih tau sedikit tentang diri saya,</p>  
+    <p>skillset yang saya kuasi, dan juga beberapa hal sepele lainnya tentang saya. So,</p>
+    <p>check my portfolio website... :)</p>
+  </div>
+
+  <div id="article1">
+    <img src="assets/images/nizar.jpg" alt="My Photo" style="width:350px;height:200px;">
+    <h3>About Me</h3>
+    <h3>Fullname : <label>Ahmad Nizar</label><br/>
+    Place and date of birth : <label>Palembang, April 29 1995</label><br/>
+    Hobby : <label> A DOTA2 player, a Programmer, and a Fighter</label><br/>   
+    </h3>
+
+    <h3>Skill Set</h3>
+    <p>- C</p>
+    <p>- C++</p>
+    <p>- JAVA</p>
+    <p>- PHP</p>
+    <p>- CodeIgniter</p>
+    <p>- Javascript</p>
+    <p>- Express</p>
+    <p>- Vue</p>
+    <p>- Sequelize</p>
+    <p>- Mongoose</p>
+
+    <h3>Experience</h3>
+    <p>- Junior Programmer FASILKOM Universitas Sriwijaya</p>
+  </div>
+
+  <div id="article2">
+    <h3>
+      Email : <label>ahmadnizar.owl@gmail.com</label><br/>
+      Telp  : <label>+6281279155548</label>
+    </h3>
+  </div>
+</section>
+<footer>
+  <div id="left">
+    <p>copyright &copy; 2017 by Ahmad Nizar</p>
+  </div>
+  <div id="right">
           <ul class="social-icons">
-            <li><a href="https://www.facebook.com/ahmadnizar.owl" class="social-icon" target="_blank"> <i class="fa fa-facebook"></i></a></li>
-            <li><a href="https://twitter.com/InisialN" class="social-icon" target="_blank"> <i class="fa fa-twitter"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/ahmad-nizar-8a6109139/" class="social-icon" target="_blank"> <i class="fa fa-linkedin"></i></a></li>
-            <li><a href="https://plus.google.com/u/0/107862839420855567339" class="social-icon" target="_blank"> <i class="fa fa-google-plus"></i></a></li>
+              <li><a href="https://www.facebook.com/ahmadnizar.owl" target="_blank" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://twitter.com/InisialN" target="_blank" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/ahmad-nizar-8a6109139/" target="_blank" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+              <li><a href="https://plus.google.com/u/0/107862839420855567339" target="_blank" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
           </ul>
-        </nav>
-      </div>
-    </footer>
-  </body>
+  </div>
+<script src="assets/js/index.js"></script>
+</footer>
+</body>
 </html>
